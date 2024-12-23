@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F2F8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.contents {
+    padding-top: 70px;
+    padding: 20px;
+    /* background-color: #fff; */
+    border: 7px solid white;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+/* .content{
+    background-image: url(./src/icons/Aire\ Jordan\ Nike.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: 5;
+} */
+.main {
+    position: relative;
+    padding-top: 100px;
+    font-family: TT Hoves;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 273.9px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.krasovka img{
+    width: 60%; /* Rasm o'lchami */
+    position: absolute; /* Tekstning ustiga chiqishi uchun */
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%); /* Rasmni markazga joylashtirish */
+    z-index: 1; /* Tekst ustida bo'lishi uchun */
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
+}
+
+.footer .search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 0;
+    align-items: center;
+}
